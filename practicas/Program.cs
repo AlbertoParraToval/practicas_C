@@ -14,7 +14,7 @@ namespace practicas
             //Practica 1
             //Practica 2
             //Practica 3
-            
+            //Practica 4
 
         }
 
@@ -55,7 +55,35 @@ namespace practicas
         #region  Practica 4
         static void Practica4()
         {
-            
+            const int edad_Conducir = 18;
+            const string Tiene_Carnet = "S";
+
+            Console.WriteLine("Vamos a evaluar si puedes conducir");
+            Console.WriteLine("Introduce tu edad, por favor:");
+            int edad = int.Parse(Console.ReadLine());
+
+            if(edad >= edad_Conducir)
+            {
+                Console.WriteLine("Puede conducir");
+                string carnet = Console.ReadLine();
+                Console.WriteLine("¿Pero, tienes carnet de conducir? (S/N)");
+                if (String.Equals(carnet, Tiene_Carnet))
+                {
+                    Console.WriteLine("Puedes conducir");
+                }
+                else
+                {
+                    Console.WriteLine("No puedes conducir");
+                }
+                
+                
+            }
+            else
+            {
+                Console.WriteLine("No puedes conducir debido a que eres menor.");
+            }
+
+         
         }
         #endregion
 
