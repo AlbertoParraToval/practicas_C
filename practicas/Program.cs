@@ -13,9 +13,6 @@ namespace practicas
         {
             //Practica 1
             //Practica 2
-            //Practica 3
-            //Practica 4
-
         }
 
         #region Practica 1
@@ -29,8 +26,8 @@ namespace practicas
         #endregion
 
 
-        #region Practica 2
-        static void Practica2()
+        #region Practica Ejemplo
+        static void Ejemplo1()
         {
             int edad = 25;
             int alumnos = 24;
@@ -42,8 +39,8 @@ namespace practicas
         #endregion
 
 
-        #region  Practica 3
-        static void Practica3()
+        #region  Practica Ejemplo
+        static void Ejemplo2()
         {
             int radio = int.Parse(Console.ReadLine());
             double area = Math.Pow(radio, 2) * Math.PI;
@@ -52,8 +49,8 @@ namespace practicas
         #endregion
 
 
-        #region  Practica 4
-        static void Practica4()
+        #region  Practica 2
+        static void Practica2()
         {
             const int edad_Conducir = 18;
             const string Tiene_Carnet = "S";
