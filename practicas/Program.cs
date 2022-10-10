@@ -49,6 +49,15 @@ namespace practicas
             double area = Math.Pow(radio, 2) * Math.PI;
             Console.WriteLine($"El área del círculo de radio {radio} es {area}");
         }
-            #endregion
+        #endregion
+
+
+        #region  Practica 4
+        static void Practica4()
+        {
+            
+        }
+        #endregion
+
     }
 }
