@@ -13,7 +13,13 @@ namespace practicas
         {
             //Practica 1
             //Practica 2
-        }
+            //Practica3
+            
+            
+
+         
+          }
+      
 
         #region Practica 1
         static void Practica1(string[] args)
@@ -83,6 +89,60 @@ namespace practicas
          
         }
         #endregion
+
+
+        #region  Practica 3
+        static void Practica3()
+        {
+            const string REPETIR_BUCLE = "S";
+            const string NOREPETIR_BUCE = "N";
+            string respuesta = string.Empty;
+            Console.WriteLine("¿Quieres entrar al bucle? (S/N)");
+            respuesta = int.Parse(Console.ReadLine()); 
+            if(string.Equals(respuesta,REPETIR_BUCLE) || string.Equals(respuesta,NOREPETIR_BUCE)){
+                while (string.Equals(respuesta, REPETIR_BUCLE))
+                {
+                    Console.WriteLine("¿Quieres entrar en el bucle? (S/N)");
+                    respuesta = int.Parse(Console.ReadLine()); 
+                }
+                Console.WriteLine("Has salido del bucle.");
+            }
+            else
+            {
+                Console.WriteLine("La respuesta introducida es erronea");
+            }
+
+            
+
+         
+        }
+        #endregion
+
+         #region  Practica 4
+        static void Practica4()
+        {
+            const string REPETIR_BUCLE = "S";
+            const string NOREPETIR_BUCE = "N";
+            string respuesta = string.Empty;
+
+
+            Console.WriteLine("¿Quieres entrar al bucle? (S/N)");
+            respuesta = int.Parse(Console.ReadLine()); 
+            if(string.Equals(respuesta,REPETIR_BUCLE) || string.Equals(respuesta,NOREPETIR_BUCE)){
+                do{
+                    Console.WriteLine("¿Quieres entrar en el bucle? (S/N)");
+                    respuesta = int.Parse(Console.ReadLine()); 
+                } while (string.Equals(respuesta, REPETIR_BUCLE))
+                Console.WriteLine("Has salido del bucle.");
+               
+            }
+            else
+            {
+                Console.WriteLine("La respuesta introducida es erronea");
+            }
+        }
+        #endregion
+
 
     }
 }
