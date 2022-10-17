@@ -118,7 +118,8 @@ namespace practicas
         }
         #endregion
 
-         #region  Practica 4
+        
+        #region  Practica 4
         static void Practica4()
         {
             const string REPETIR_BUCLE = "S";
